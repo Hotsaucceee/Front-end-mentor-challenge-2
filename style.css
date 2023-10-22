@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 10px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+main
+{
+    background-color: #f4f4f4;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section
+{
+    width: 44%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    border-radius: 4rem;
+    box-shadow: .1rem .1rem 3rem;
+}
+.first-div
+{
+    text-align: center;
+    font-size: 1.6rem;
+    width: 50%;
+    padding: 3.3rem;
+    background-color: rgb(84, 84, 239);
+    border-radius: 4rem;
+}
+.first-div > h4
+{
+    font-size: 2.1rem;
+    color: #d0cbcb;
+}
+.first-div>div
+{
+    width: 68%;
+    height: 47%;
+    background: linear-gradient(to bottom, rgb(57, 57, 163), rgb(84, 84, 239) 90%);
+    margin: auto;
+    border-radius: 9.8rem;
+    padding: 5rem;
+    box-shadow: 4rem;
+    margin: 3rem auto;
+}
+.fade-img>p
+{
+    color: #d0cbcb76;
+}
+.first-div>div>p>strong
+{
+    font-size: 5rem;
+    display: block;
+    color: white;
+}
+.first-div>h3
+{
+    font-size: 2.4rem;
+    color: white;
+}
+.first-div>p
+{
+    padding:1.5rem 3rem;
+    color: #d0cbcb;
+    font-weight:lighter;
+}
+.second-div
+{
+    font-size: 1.6rem;
+    padding: 3.3rem;
+    width: 50%;
+}
+.second-div>ul
+{
+    list-style-type: none;
+    margin: 3rem 0;
+}
+.second-div>ul li
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.second-div>ul li>h4
+{
+    margin-left: -10rem;
+}
+.first-item
+{
+    background-color: rgba(251, 110, 59, 0.092);
+}
+.first-item h4
+{
+    color: rgba(251, 110, 59, 0.859);
+}
+.second-item
+{
+    background-color: rgba(255, 255, 0, 0.092);
+}
+.second-item h4
+{
+    color: rgb(227, 227, 41);
+}
+.third-item
+{
+    background-color: rgba(0, 128, 0, 0.092);
+}
+.third-item h4
+{
+    color: rgba(0, 128, 0, 0.859);
+}
+.fourth-item 
+{
+    background-color: rgba(128, 0, 128, 0.092);
+}
+.fourth-item h4
+{
+    color: rgba(128, 0, 128, 0.859);
+}
+.second-div>ul li strong 
+{
+    color: #afaeae;
+}
+.btn-div
+{
+    margin-top: 5rem;
+}
+.btn-div>a
+{
+    text-decoration: none;
+    padding: 1.3rem 10.3rem;
+    background-color: midnightblue;
+    border-radius: 3rem;
+    color: white;
+}
+.second-div>ul li:hover , .btn-div:hover
+{
+    transform: scale(1.1);
+}
+
+/* Mobile view */
+@media screen and (max-width: 800px){
+    .main-section{
+        flex-direction: column;
+    }
+    
+}   section
+{
+    width: 44%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    border-radius: 4rem;
+    box-shadow: .1rem .1rem 3rem;
+}
